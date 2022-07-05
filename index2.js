@@ -6,6 +6,8 @@ var chName = document.getElementById('ycName');
  if (name == "") {
     chName.innerHTML='*Bạn chưa nhập tên';
     
+ } else {
+     chName.innerHTML='';
  }
 
  // check tuoi
